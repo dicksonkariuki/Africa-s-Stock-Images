@@ -1,3 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+.header{
+    background-image: url(../images/tea.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+}
+h1{
+    font-family: 'Righteous', cursive;
+}
+#form{
+    background-color: transparent;
+   text-align: center;
+}
+#part{
+    text-align: center;
+    padding-top:160px;
+   
+=======
 #nav{
     background-color:darkblue;
     text-align: center !important;
