@@ -24,16 +24,16 @@ function validateform() {
   };
 }
 myInput.onkeyup = function() {
-    // Validate lowercase letters
-    var lowerCaseLetters = /[a-z]/g;
-    if (myInput.value.match(lowerCaseLetters)) {
-      letter.classList.remove("invalid");
-      letter.classList.add("valid");
-    } else {
-      letter.classList.remove("valid");
-      letter.classList.add("invalid");
-    }
-    var upperCaseLetters = /[A-Z]/g;
+  // Validate lowercase letters
+  var lowerCaseLetters = /[a-z]/g;
+  if (myInput.value.match(lowerCaseLetters)) {
+    letter.classList.remove("invalid");
+    letter.classList.add("valid");
+  } else {
+    letter.classList.remove("valid");
+    letter.classList.add("invalid");
+  }
+  var upperCaseLetters = /[A-Z]/g;
   if (myInput.value.match(upperCaseLetters)) {
     capital.classList.remove("invalid");
     capital.classList.add("valid");
@@ -49,3 +49,11 @@ myInput.onkeyup = function() {
     number.classList.remove("valid");
     number.classList.add("invalid");
   }
+  if (myInput.value.length >= 8) {
+    length.classList.remove("invalid");
+    length.classList.add("valid");
+  } else {
+    length.classList.remove("valid");
+    length.classList.add("invalid");
+  }
+};
