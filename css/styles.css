@@ -37,11 +37,12 @@ footer{
 	font: normal 36px 'Cookie', cursive;
 	margin: 0;
 }
-
- 
-.footer-distributed h3 span{
-	color:  darkblue;
+.footer-distributed h6{
+	color: darkgoldenrod;
+	font-style: italic;
 }
+
+
  
 /* Footer links */
  
