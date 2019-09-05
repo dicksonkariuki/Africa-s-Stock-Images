@@ -23,3 +23,21 @@ col-md-6 {
   padding-top: 1%;
   color: white;
 }
+#nav {
+  background-color: darkblue;
+  text-align: center !important;
+  text-decoration: none;
+}
+#nav ul li a {
+  color: whitesmoke;
+  font-family: sans-serif;
+  text-decoration: none !important;
+  text-transform: uppercase;
+}
+#nav ul li {
+  border-right: 1px dotted;
+  color: white;
+  padding: 0 5px;
+  margin: 20px;
+  text-align: center;
+}
