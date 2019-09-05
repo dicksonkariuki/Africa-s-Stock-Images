@@ -1,0 +1,8 @@
+.box {
+  background-color: darkblue;
+  box-sizing: border-box;
+  width: 75%;
+  height: 50vh;
+  margin: auto;
+  margin-top: 70px;
+}
