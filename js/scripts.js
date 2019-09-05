@@ -41,3 +41,11 @@ myInput.onkeyup = function() {
     capital.classList.remove("valid");
     capital.classList.add("invalid");
   }
+  var numbers = /[0-9]/g;
+  if (myInput.value.match(numbers)) {
+    number.classList.remove("invalid");
+    number.classList.add("valid");
+  } else {
+    number.classList.remove("valid");
+    number.classList.add("invalid");
+  }
