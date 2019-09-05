@@ -10,3 +10,7 @@
 h1{
     font-family: 'Righteous', cursive;
 }
+#form{
+    background-color: transparent;
+   text-align: center;
+}
