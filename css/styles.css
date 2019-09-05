@@ -4,9 +4,19 @@
     text-decoration: none;
 }
 #nav ul li a {
-    color:white;
+    color:whitesmoke;
+    font-family: sans-serif;
     text-decoration: none!important;
     text-transform: uppercase;
+}
+#nav ul li{
+    border-right: 1px dotted;
+    color: white;
+    padding:0 5px;
+    margin: 20px;
+    text-align: center;
+    
+
 } 
 #nav ul li a:hover{
     color: yellow;
