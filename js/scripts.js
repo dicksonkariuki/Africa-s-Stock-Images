@@ -11,3 +11,8 @@ function validateform() {
     } else {
       alert("Proceed to download an image");
     }
+    var myInput = document.getElementById("password");
+  var letter = document.getElementById("letter");
+  var capital = document.getElementById("capital");
+  var number = document.getElementById("number");
+  var length = document.getElementById("length");
