@@ -1,4 +1,13 @@
-
+#nav{
+    background-color:darkblue;
+    text-align: center !important;
+    text-decoration: none;
+}
+#nav ul li a {
+    color:white;
+    text-decoration: none!important;
+    text-transform: uppercase;
+} 
 .navbar-right ul li{
     list-style:none;
 }
