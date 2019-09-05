@@ -33,3 +33,11 @@ myInput.onkeyup = function() {
       letter.classList.remove("valid");
       letter.classList.add("invalid");
     }
+    var upperCaseLetters = /[A-Z]/g;
+  if (myInput.value.match(upperCaseLetters)) {
+    capital.classList.remove("invalid");
+    capital.classList.add("valid");
+  } else {
+    capital.classList.remove("valid");
+    capital.classList.add("invalid");
+  }
