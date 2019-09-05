@@ -23,3 +23,13 @@ function validateform() {
     document.getElementById("message").style.display = "none";
   };
 }
+myInput.onkeyup = function() {
+    // Validate lowercase letters
+    var lowerCaseLetters = /[a-z]/g;
+    if (myInput.value.match(lowerCaseLetters)) {
+      letter.classList.remove("invalid");
+      letter.classList.add("valid");
+    } else {
+      letter.classList.remove("valid");
+      letter.classList.add("invalid");
+    }
