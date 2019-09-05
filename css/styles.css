@@ -50,3 +50,10 @@ col-md-6 {
 #nav ul li a:hover {
   color: yellow;
 }
+.navbar-right ul {
+  list-style: none;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+}
