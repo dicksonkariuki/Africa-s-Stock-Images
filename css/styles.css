@@ -6,7 +6,11 @@
 #nav ul li a {
     color:white;
     text-decoration: none!important;
+    text-transform: uppercase;
 } 
+#nav ul li a:hover{
+    color: yellow;
+}
 .navbar-right ul{
     list-style:none;
 }
