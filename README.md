@@ -1,4 +1,4 @@
-# AFRICAN STOCK IMAGES
+# AFRICANS STOCK IMAGES
 
 
 ## Developers
