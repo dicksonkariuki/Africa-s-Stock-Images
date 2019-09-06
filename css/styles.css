@@ -446,8 +446,8 @@ footer{
   }
 
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
-head{
-    background-image: url("../images/tea.jpeg");
+.header{
+    background-image: url(/images/tea.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
